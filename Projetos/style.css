@@ -1,0 +1,122 @@
+/* ESTILO GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(58, 58, 58);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-contato button:hover {
+    box-shadow: 0px 0px 8px #5d5d5d5e;
+    transform: scale(1.05);
+}
+
+/* CABEÇARIO */
+header {
+    padding: 40px 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #5d5d5d;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+.logo p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    font-style: normal;
+}
+
+header a:hover {
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+/* PROJETOS */
+section.projetos {
+    padding: 40px 4%;
+}
+
+.projetos .titulo {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteudo-projetos {
+    background-color: #111;
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.05);
+    color: #ddd;
+}
+
+.conteudo-projetos .bloco {
+    margin-bottom: 30px;
+}
+
+.conteudo-projetos h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.conteudo-projetos p,
+.conteudo-projetos li {
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.conteudo-projetos ul {
+    padding-left: 20px;
+    list-style: disc;
+}
